@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Samsung Form</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            background-color: blanchedalmond;
+            width:100%;
+            height: 400%;
+            
+        }
+      
+        .case1{
+            background-color: cornsilk;
+            background-attachment: fixed;
+        }
+        .case2{
+           
+            display: flex;
+            justify-content: space-between;
+            padding-left: 16px;
+            padding-right: 16px;
+            
+            
+            
+        }
+        h1{
+            padding-top: 13px;
+            padding-left: 200px;
+        }
+        .head1{
+            padding-right: 50px;
+        }
+        .listing{
+             padding-right: 0px;
+        }
+        .listing ul{
+            padding-top: 25px;
+           
+            
+        }
+        .listing ul li{
+            display: inline;
+            padding: 8px;
+            border: 1px solid salmon;
+            background-color: salmon;
+            border-radius: 20px;
+            
+
+        }
+        .listing ul li:hover{
+            border: 2px solid rgb(96, 96, 180);
+            background-color: rgb(96, 96, 180);
+            
+            transition: 0.03s ease-in-out;
+            
+            
+
+        }
+        .listing ul li:active{
+
+            background-color: aqua;
+        }
+        .listing ul li a{
+
+            color: aliceblue;
+            text-decoration: none;
+        
+            
+        }
+        .listing ul li a:hover{
+            color: black;
+        }
+        .listing ul li a:active{
+            color: pink;
+        }
+        .head2{
+            display: flex;
+            justify-content: center;
+            padding-top: 10px;
+
+        }
+        .form_act{
+            display: flex;
+            justify-content: center;
+            padding-top: 29px;
+        }
+        .form_act fieldset{
+            width: fit-content;
+            padding: 10px;
+            background-color: rgb(136, 181, 200);
+        }
+        .form_act legend{
+            border: 2px solid rgb(97, 12, 39);
+            background-color: rgb(97, 12, 39);
+            padding: 7px;
+            color: aliceblue;
+        }
+        
+        .form_act label{
+            display: block;
+            padding: 5px;
+        }
+        .form_act input{
+            display: block;
+            width: 300px;
+            padding: 5px;
+        }
+        #submitbtn{
+            width: 150px;
+            border: 2px solid aquamarine;
+            background-color: aquamarine;
+            color: rgb(2, 57, 57);
+            
+        }
+        #submitbtn:hover{
+            transition: 1s;
+            border-radius: 50px;
+            border: 2px solid rgb(180, 40, 149);
+            background-color: rgb(180, 40, 149);
+            color: whitesmoke;
+            cursor: pointer;  
+            width: fit-content;
+        }
+        .cont{
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: space-evenly;
+            background-color: rgb(62, 62, 198);
+            margin-top: 300px;
+            width: 100%;
+        }
+        .foot{
+           display: flex;
+           justify-content: space-evenly;
+           
+        }
+        
+        .foot ul{
+            list-style-type: none;
+            padding: 9px 30px;
+            
+        }
+        .foot ul li{
+        
+            padding: 10px 15px;
+            color: whitesmoke;
+        }
+        .cont .list0 ul{
+
+            padding: 9px 20px;
+        }
+        .cont .list0 ul li{
+            list-style-type: none;
+            display: inline;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: large;
+            color: black;
+            padding:  0 53px;
+        }
+        .arrange1{
+            display: flex;
+            flex-flow: column wrap;
+            align-content: space-around;
+        }
+        .man{
+            display: block;
+            background-color: rgb(163, 122, 122);
+            text-align: center;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            color: antiquewhite;
+            padding: 8px;
+        }
+    </style>
+</head>
+<body>
+       <div class="case1">
+        <div class="case2">
+            <div class="image">
+                <img src="samsunglogo.png" alt="not fine" width="140px" height="70px">
+            </div>
+            <div class="head1">
+                 <h1>Samsung Login Page</h1>
+            </div>
+            <div class = "listing">
+                <ul>
+                    <li><a href="https://www.samsung.com/in/?cid=in_pd_search_google_im-all-all-all-dtc_sales_samsung-allproducts-all-2023_eshop-dsa_01jan2023-na_1ur-501336l-2023-eshop-bau-dsa-cpc_pfm-614139100219-17924215676-140077037736-dsa-546668199249----g--&gclid=Cj0KCQiA8t2eBhDeARIsAAVEga3aqSJH-20eq0aDc9OHxLhxg6gpM0o6BgZdzFpkA6GQzPe-PgjmogoaAiWEEALw_wcB" target="_blank">Home</a></li>
+                    <li><a href="https://www.samsung.com/in/about-us/company-info/?cid=in_pd_search_google_im-all-all-all-dtc_sales_samsung-allproducts-all-2023_eshop-dsa_01jan2023-na_1ur-501336l-2023-eshop-bau-dsa-cpc_pfm-614139100219-17924215676-140077037736-dsa-546668199249----g--&gclid=Cj0KCQiA8t2eBhDeARIsAAVEga0d-9_-E0d-XHX_xf3z44XI6V5TqfEm3GHAXU3iKVZ3VC7ew81yvacaAq2NEALw_wcB" target="_blank">About</a></li>
+                    <li><a href="https://www.samsung.com/in/tvs/" target="_blank">TVs</a></li>
+                    <li><a href="https://www.samsung.com/in/tv-accessories/all-tv-accessories/" target="_blank">accessories</a></li>
+                    <li><a href="https://www.samsung.com/in/samsung-card/" target="_blank">offers</a></li>
+                </ul>
+          </div>
+        </div>
+
+    </div>
+    <div class="arrange1">
+    <div class="head2">    
+        <h2>Register On Samsung Application</h2>
+    </div>
+    <div class="form_act">    
+        <fieldset>
+            <legend>Samsung Registration Form</legend>
+            <form action="submit">
+                <label for="name">Name: </label>
+                <input type="text" name="name">
+                <label for="DOB">DOB: </label>
+                <input type="date" name="DOB">
+                <label for="phone">Contact Number: </label>
+                <input type="number" name="phone">
+                <label for="aadhar_number">Aadhar Number: </label>
+                <input type="text" name="aadhar_number">
+                <label for="pan_number">PAN Number: </label>
+                <input type="text" name="pan_number">
+                <label for="E-mail">E-mail: </label>
+                <input type="email" name="E-mail">
+                <label for="password">Password: </label>
+                <input type="password" name="password"><br>
+                <input type="submit" name="submit" id="submitbtn"> 
+            </form>
+        </fieldset>
+    </div> 
+    <div class="head2">    
+        <h2>Login To Samsung Application</h2>
+    </div>
+    <div class="form_act">    
+        <fieldset>
+            <legend>Samsung Login Form</legend>
+            <form action="submit">
+                <label for="name">UserName: </label>
+                <input type="text" name="name">
+                <label for="password">Password: </label>
+                <input type="password" name="password"><br>
+                <input type="submit" name="Login" id="submitbtn"> 
+            </form>
+        </fieldset>
+    </div> 
+    </div>
+<div class="cont">
+    <div class="list0">
+        <ul>
+            <li>Samsung Qled</li>
+            <li>Samsung Neo Qled</li>
+            <li>Samsung Crystal</li>
+            <li>Samsung Membrane</li>
+            
+        </ul>
+    </div>
+    <div class="foot">
+        <div class="list1">
+            <ul>
+                <li>Samsung 480p Qled</li>
+                <li>Samsung 720p Qled</li>
+                <li>Samsung 1080p Qled</li>
+                <li>Samsung 1440p Qled</li>
+                <li>Samsung 2160p Qled</li>
+            </ul>
+        </div>
+        <div class="list2">
+            <ul>
+                <li>Samsung 480p Neo Qled</li>
+                <li>Samsung 720p Neo Qled</li>
+                <li>Samsung 1080p Neo Qled</li>
+                <li>Samsung 1440p Neo Qled</li>
+                <li>Samsung 2160p Neo Qled</li>
+
+            </ul>
+        </div>
+        <div class="list3">
+            <ul>
+                <li>Samsung 480p Crystal</li>
+                <li>Samsung 720p Crystal</li>
+                <li>Samsung 1080p Crystal</li>
+                <li>Samsung 1440p Crystal</li>
+                <li>Samsung 2160p Crystal</li>
+            </ul>
+        </div>
+        <div class="list4">
+            <ul>
+                <li>Samsung 480p Membrane</li>
+                <li>Samsung 720p Membrane</li>
+                <li>Samsung 1080p Membrane</li>
+                <li>Samsung 1440p Membrane</li>
+                <li>Samsung 2160p Membrane</li>
+            </ul>
+        </div>
+    </div>
+</div>
+    <footer class="man">
+        &#169;2023 issued in the public interest not to be forged. 
+    </footer>
+</body>
+</html>
